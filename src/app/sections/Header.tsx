@@ -87,7 +87,7 @@ export default function Header() {
             </div>
             <div className=" w-full flex items-center justify-center relative z-10 h-full ">
 
-                <img src="/logo.png" alt="Logo" width={500} height={500}  className=" -translate-y-24 md:-translate-y-0 relative z-30" />
+                <img src="/logo.png" alt="Logo" width={650} height={650}  className=" -translate-y-24 md:-translate-y-0 relative z-30" />
 
                 {/* <div className=" relative z-30 max-w-[1240px] w-full flex flex-col gap-4 justify-center h-full px-4">
                 <h2 className=" text-6xl font-semibold text-white md:text-start text-center">Welcome to <span className=" text-green-400">Pay Petrols</span></h2>
