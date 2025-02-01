@@ -7,21 +7,21 @@ export default function Footer() {
           <img src="/logo.png" width={200} height={200} />
 
             <div className="flex items-center gap-6 text-gray-200 text-sm md:text-lg">
-                <a href="#" className="hover:text-green-500">
-                Home
-                </a>
-                <a href="#" className="hover:text-green-500">
-                Games
-                </a>
-                <a href="#" className="hover:text-green-500">
-                Blog
-                </a>
-                <a href="#" className="hover:text-green-500">
-                Forum
-                </a>
-                <a href="#" className="hover:text-green-500">
-                Contact
-                </a>
+            <a href="#" className="hover:text-green-500">
+                    Home
+                    </a>
+                    <a href="#pets" className="hover:text-green-500">
+                    Pets
+                    </a>
+                    <a href="#gameplay" className="hover:text-green-500">
+                    Gameplay
+                    </a>
+                    <a href="#faq" className="hover:text-green-500">
+                    Faq
+                    </a>
+                    <a href="#news" className="hover:text-green-500">
+                    News
+                    </a>
             
             </div>
         <p className=" text-xs text-zinc-400">© 2023 Game Company. All Rights Reserved.</p>

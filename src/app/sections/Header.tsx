@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useState } from 'react'
 import {
     Sheet,
     SheetContent,
@@ -7,18 +8,59 @@ import {
     SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
-import { Menu } from 'lucide-react'
+import { Facebook, Instagram, Menu, Youtube } from 'lucide-react'
 import { Parallax } from 'react-scroll-parallax'
+import axios, { AxiosError } from 'axios'
+import { FaDiscord, FaTelegram } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
-const navigation = [
-    { name: "Home", href: "#" },
-    { name: "Games", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Forum", href: "#" },
-    { name: "Contact", href: "#" },
-  ]
+
+
+interface List {
+    _id: string,
+    link: string,
+    title: string,
+  }
+
+
 
 export default function Header() {
+    const [list, setList] = useState<List[]>([])
+  
+    useEffect(() => {
+      const getData = async () => {
+        try {
+          const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/sociallinks/getsociallinkslp`,{
+          withCredentials:true
+          })
+  
+          setList(response.data.data)
+          
+        } catch (error) {
+          
+      }
+    }
+      getData()
+  },[])
+
+  const icon = (data: string) => {
+    if(data === 'facebook'){
+      return <Facebook size={25}/>
+    }else if(data === 'discord'){
+      return  <FaDiscord size={25} />
+    }else if(data === 'x'){
+      return  <FaXTwitter size={25}/>
+    }else if(data === 'instagram'){
+      return  <Instagram size={25}/>
+    }else if(data === 'telegram'){
+      return  <FaTelegram  size={25}/>
+    } else {
+      return  <Youtube size={25}/>
+  
+    }
+  }
+
+
   return (
 
     <div className=' relative flex items-start h-[100dvh]'>
@@ -33,49 +75,66 @@ export default function Header() {
                     <a href="#" className="hover:text-green-500">
                     Home
                     </a>
-                    <a href="#" className="hover:text-green-500">
-                    Games
+                    <a href="#pets" className="hover:text-green-500">
+                    Pets
                     </a>
-                    <a href="#" className="hover:text-green-500">
-                    Blog
+                    <a href="#gameplay" className="hover:text-green-500">
+                    Gameplay
                     </a>
-                    <a href="#" className="hover:text-green-500">
-                    Forum
+                    <a href="#faq" className="hover:text-green-500">
+                    Faq
                     </a>
-                    <a href="#" className="hover:text-green-500">
-                    Contact
+                    <a href="#news" className="hover:text-green-500">
+                    News
                     </a>
+                   
+                  
                 
                 </div>
-                <button className=" lg:block hidden aspect-video h-[80px]">
-                    <img src="/assets/playnow.png" width={200} className=" hover:scale-110 transition-all duration-300"/>
-                </button>
+                <a href={process.env.NEXT_PUBLIC_LOGIN} target='_blank' className=" bg-green-600 px-6 py-2 rounded-full lg:block hidden">
+                   Sign in
+                </a>
                 <Sheet>
                 <SheetTrigger asChild className="md:hidden">
                     <Menu className="h-6 w-6 text-white" />
                     
                 </SheetTrigger>
-                <SheetContent side="left" className="w-[300px] sm:w-[400px] bg-[#212121] border-zinc-700">
+                <SheetContent side="left" className="w-[300px] sm:w-[400px] bg-[#212121] border-zinc-700 text-white text-sm gap-2">
                     <nav className="flex flex-col gap-2 mt-8">
 
                     <div className=" flex items-center justify-center">
                     <img src="/logo.png" alt="Logo" width={120} height={120}  className=" " />
 
                     </div>
+                    <a href="#" className="hover:text-green-500">
+                    Home
+                    </a>
+                    <a href="#pets" className="hover:text-green-500">
+                    Pets
+                    </a>
+                    <a href="#gameplay" className="hover:text-green-500">
+                    Gameplay
+                    </a>
+                    <a href="#faq" className="hover:text-green-500">
+                    Faq
+                    </a>
+                    <a href="#news" className="hover:text-green-500">
+                    News
+                    </a>
 
-                    {navigation.map((item) => (
-                        <a
-                        key={item.name}
-                        href={item.href}
-                        className="block px-2 py-3 text-sm hover:text-green-500 transition-colors text-white"
-                        >
-                        {item.name}
+                    <a href={process.env.NEXT_PUBLIC_LOGIN} target='_blank' className=" bg-green-600 px-6 py-2 rounded-full w-fit text-white mt-4 ">
+                    Sign in
+                    </a>
+
+                    <p className=' text-xs text-zinc-500 mt-6'>Follow us on:</p>
+
+                    <div className=' flex items-center gap-2 text-white  mt-2'>
+                        {list.map((item, index) => (
+                        <a key={index} href={item.link} className=' hover:scale-110 transition-all duration-200' target='_blank'>
+                        {icon(item.title)}
                         </a>
-                    ))}
-
-                    <button className=" aspect-video h-[50px]">
-                        <img src="/assets/playnow.png" width={150} className=" hover:scale-110 transition-all duration-300"/>
-                    </button>
+                        ) )}
+                    </div>
 
                     </nav>
                 </SheetContent>

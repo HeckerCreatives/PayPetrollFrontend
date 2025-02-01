@@ -4,7 +4,7 @@ import React from 'react'
 export default function Gameplay() {
   return (
 
-    <div className=' relative z-50 w-full flex items-center justify-center h-auto bg'>
+    <div id='gameplay' className=' relative z-50 w-full flex items-center justify-center h-auto bg'>
         <section className="max-w-[1240px] w-full py-32 px-4">
             <h2 className="text-center text-3xl font-bold mb-8">Gameplay</h2>
             <div className="relative bg-white "

@@ -7,7 +7,7 @@ const dogs = [
 
 export default function News() {
   return (
-    <div className=' w-full bg-[#212121] h-auto relative z-50'>
+    <div id='news' className=' w-full bg-[#212121] h-auto relative z-50'>
      <section className="max-w-[1240px] flex flex-col gap-4 items-center mx-auto px-4 py-32  relative z-20">
     <h2 className="text-center text-3xl font-bold">News & Announcements</h2>
     <p className=" text-zinc-400 max-w-[700px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem commodi obcaecati earum assumenda aliquid error repellendus ipsam! Quisquam quidem sequi error</p>
