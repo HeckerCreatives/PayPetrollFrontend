@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
+
 import { MoveLeft } from "lucide-react"
 
 export default function NotFound() {
@@ -10,10 +10,10 @@ export default function NotFound() {
         <h2 className="text-3xl font-semibold text-gray-700 mb-6">Page Not Found</h2>
         <p className="text-xl text-gray-600 mb-8">Oops! The page you're looking for doesn't exist or has been moved.</p>
         <a href="/">
-          <Button className="inline-flex items-center">
+          <button className="inline-flex items-center px-4 py-2 bg-green-600 rounded-md">
             <MoveLeft className="mr-2 h-4 w-4" />
             Back to Home
-          </Button>
+          </button>
         </a>
       </div>
     </div>
