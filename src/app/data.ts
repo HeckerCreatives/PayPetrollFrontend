@@ -256,7 +256,8 @@ export const pets = [
                     "profit": 0.15
                 }
             ],
-            "rank": "Novice"
+            "rank": "Novice",
+            "description" : 'The Novice Trainer package is perfect for beginners, offering a starting rate of ₱500 per entry with a minimum investment of ₱500 and a maximum of ₱5,000. This 5-day program includes a 15% return, making it an ideal choice for pet lovers looking to grow their savings while caring for their furry friends.'
         },
         {
             "trainers": [
@@ -311,7 +312,8 @@ export const pets = [
                     "profit": 0.4
                 }
             ],
-            "rank": "Expert"
+            "rank": "Expert",
+             "description" : 'The Expert Trainer package is designed for experienced individuals, with an entry fee of ₱2,000, a minimum investment of ₱1,000, and a maximum of ₱20,000. This 10-day program offers a 40% return, making it a great option for pet enthusiasts seeking higher rewards while managing their investments.'
         },
         {
             "trainers": [
@@ -366,7 +368,8 @@ export const pets = [
                     "profit": 3
                 }
             ],
-            "rank": "Ace"
+            "rank": "Ace",
+             "description" : 'The Elite Trainer package is tailored for seasoned investors, featuring an entry fee of ₱5,000, a minimum investment of ₱5,000, and a maximum of ₱50,000. This 20-day program delivers an impressive 100% return, making it an excellent choice for dedicated pet lovers aiming for significant growth in their investments.'
         }
 ]
 

@@ -28,8 +28,8 @@ export default function Characters() {
 
         <div id='pets' className=' w-full bg-[#212121] h-auto relative z-50'>
          <section className="max-w-[1240px] flex flex-col gap-4 items-center mx-auto px-4 py-24  relative z-20">
-        <h2 className="text-center text-3xl font-bold">Cute Pets</h2>
-        <p className=" text-zinc-400 max-w-[700px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem commodi obcaecati earum assumenda aliquid error repellendus ipsam! Quisquam quidem sequi error</p>
+        <h2 className="text-center text-3xl font-bold">Trainers</h2>
+        
 
         <div className=' w-full flex items-center justify-center gap-4 mt-8 text-sm whitespace-nowrap overflow-x-auto '>
           <button className={`${tab === 'Novice' && ' border-b-4 border-green-500'} p-1 ml-8`} onClick={() => setTab('Novice')}>Novice</button>
@@ -39,7 +39,10 @@ export default function Characters() {
           <button  disabled={true} className={`${tab === 'of Heart' && ' border-b-4 border-green-500 '} text-zinc-400 p-1`} onClick={() => setTab('Ace of Heart')}>Ace of Heart</button>
 
         </div>
-        <div className=" flex flex-wrap justify-center gap-4 mt-6">
+
+        <p className=" text-zinc-400 max-w-[700px] text-center mt-2">{findPets?.description}</p>
+
+        <div className=" flex flex-wrap justify-center gap-4 mt-8">
           {findPets?.trainers.map((item, index) => (
 
             <div  key={index} className=' group relative w-[220px] h-[280px] p-8'
