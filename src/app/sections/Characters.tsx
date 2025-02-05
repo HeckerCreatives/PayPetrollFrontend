@@ -29,14 +29,16 @@ export default function Characters() {
         <div id='pets' className=' w-full bg-[#212121] h-auto relative z-50'>
          <section className="max-w-[1240px] flex flex-col gap-4 items-center mx-auto px-4 py-24  relative z-20">
         <h2 className="text-center text-3xl font-bold">Trainers</h2>
+        <p className=" text-zinc-400 max-w-[700px] text-center mt-2">Welcome to our Trainer Packages, designed to help you achieve your financial goals while celebrating your love for pets! Whether you're just starting out or are an experienced investor, our Novice, Expert, and Elite Trainer options offer tailored plans with flexible investment ranges and rewarding returns. Join us and grow your savings while enjoying the joy that pets bring to your life!</p>
+
         
 
-        <div className=' w-full flex items-center justify-center gap-4 mt-8 text-sm whitespace-nowrap overflow-x-auto '>
+        <div className=' w-full flex items-center justify-center gap-4 h-[60px] mt-4 text-sm whitespace-nowrap overflow-x-auto '>
           <button className={`${tab === 'Novice' && ' border-b-4 border-green-500'} p-1 ml-8`} onClick={() => setTab('Novice')}>Novice</button>
           <button className={`${tab === 'Expert' && ' border-b-4 border-green-500'} p-1`} onClick={() => setTab('Expert')}>Expert</button>
           <button className={`${tab === 'Ace' && ' border-b-4 border-green-500'} p-1`} onClick={() => setTab('Ace')}>Ace</button>
-          <button  disabled={true} className={`${tab === 'Ace of Spade' && ' border-b-4 border-green-500 '} text-zinc-400 p-1`} onClick={() => setTab('Ace of Spade')}>Ace of Spade</button>
-          <button  disabled={true} className={`${tab === 'of Heart' && ' border-b-4 border-green-500 '} text-zinc-400 p-1`} onClick={() => setTab('Ace of Heart')}>Ace of Heart</button>
+          <button  disabled={true} className={`${tab === 'Ace of Spade' && ' border-b-4 border-green-500 '} text-zinc-400 p-1 relative`} onClick={() => setTab('Ace of Spade')}>Ace of Spade<span className=' text-[.5rem] px-2 bg-red-600 text-white rounded-full absolute top-0 -translate-y-3 translate-x-4 right-0'>Coming soon!</span></button>
+          <button  disabled={true} className={`${tab === 'Ace of Spade' && ' border-b-4 border-green-500 '} text-zinc-400 p-1 relative`} onClick={() => setTab('Ace of Heart')}>Ace of Heart<span className=' text-[.5rem] px-2 bg-red-600 text-white rounded-full absolute top-0 -translate-y-3 translate-x-4 right-0'>Coming soon!</span></button>
 
         </div>
 

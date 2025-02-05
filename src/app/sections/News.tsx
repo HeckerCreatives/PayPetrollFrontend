@@ -9,8 +9,9 @@ export default function News() {
   return (
     <div id='news' className=' w-full bg-[#212121] h-auto relative z-50'>
      <section className="max-w-[1240px] flex flex-col gap-4 items-center mx-auto px-4 py-32  relative z-20">
-    <h2 className="text-center text-3xl font-bold">News & Announcements</h2>
-    <p className=" text-zinc-400 max-w-[700px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem commodi obcaecati earum assumenda aliquid error repellendus ipsam! Quisquam quidem sequi error</p>
+    <h2 className="text-center text-3xl font-bold">News and announcement</h2>
+    <p className=" text-zinc-400 max-w-[700px] text-center">Welcome to the latest updates from Paypetroll! We’re thrilled to share some exciting developments, new features, and important reminders to enhance your gaming experience. Stay tuned for what’s coming next!
+    </p>
     <div className=" flex flex-wrap justify-center gap-4">
       {dogs.map((i) => (
 
