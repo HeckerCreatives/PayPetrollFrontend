@@ -1,32 +1,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { faqs } from "../data"
 
-const faqs = [
-  {
-    question: "What services do you offer?",
-    answer:
-      "We offer a wide range of web development and design services, including responsive website design, e-commerce solutions, custom web applications, and ongoing maintenance and support.",
-  },
-  {
-    question: "How long does it take to complete a project?",
-    answer:
-      "Project timelines vary depending on the scope and complexity. A simple website might take 2-4 weeks, while a more complex web application could take 2-3 months or more. We'll provide a detailed timeline during our initial consultation.",
-  },
-  {
-    question: "Do you offer mobile app development?",
-    answer:
-      "Yes, we offer mobile app development for both iOS and Android platforms. We can create native apps or cross-platform solutions depending on your needs and budget.",
-  },
-  {
-    question: "What is your pricing structure?",
-    answer:
-      "Our pricing is project-based and depends on the specific requirements of each client. We offer competitive rates and will provide a detailed quote after our initial consultation and requirements gathering phase.",
-  },
-  {
-    question: "Do you provide ongoing support and maintenance?",
-    answer:
-      "We offer various support and maintenance packages to ensure your website or application continues to run smoothly after launch. These can include regular updates, security patches, and technical support.",
-  },
-]
+
 
 export default function FAQSection() {
   return (
@@ -39,7 +14,10 @@ export default function FAQSection() {
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
               <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
-              <AccordionContent>{faq.answer}</AccordionContent>
+              <AccordionContent className=" whitespace-pre-wrap text-sm text-start text-zinc-300">
+              <div dangerouslySetInnerHTML={{ __html: faq.answer }} className=" text-start " />
+
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>

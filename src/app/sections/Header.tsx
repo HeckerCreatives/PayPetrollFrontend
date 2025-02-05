@@ -82,7 +82,7 @@ export default function Header() {
                     Gameplay
                     </a>
                     <a href="#faq" className="hover:text-green-500">
-                    Faq
+                    FAQ
                     </a>
                     <a href="#news" className="hover:text-green-500">
                     News
@@ -116,7 +116,7 @@ export default function Header() {
                     Gameplay
                     </a>
                     <a href="#faq" className="hover:text-green-500">
-                    Faq
+                    FAQ
                     </a>
                     <a href="#news" className="hover:text-green-500">
                     News
