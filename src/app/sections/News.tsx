@@ -1,28 +1,27 @@
 import React from 'react'
 const dogs = [
-    '/assets/dog1.png',
-    '/assets/dog2.png',
-    '/assets/dog3.png',
+    {desc:'Catch the water droplet to clean your pet. Avoid touching the mud, as it will make your pet dirtier. ', img:'/screen3.jpg'},
+    {desc:'Catch the ball to increase your pets intimacy. Avoid getting hit by the trash.', img:'/screen2.jpg'},
+    {desc:'Catch pet food until your pet is full before the time runs out', img:'/screen1.jpg'},
 ]
 
 export default function News() {
   return (
     <div id='news' className=' w-full bg-[#212121] h-auto relative z-50'>
      <section className="max-w-[1240px] flex flex-col gap-4 items-center mx-auto px-4 py-32  relative z-20">
-    <h2 className="text-center text-3xl font-bold">News and announcement</h2>
+    <h2 className="text-center text-3xl font-bold">How to play</h2>
     <p className=" text-zinc-400 max-w-[700px] text-center">Welcome to the latest updates from Paypetroll! We’re thrilled to share some exciting developments, new features, and important reminders to enhance your gaming experience. Stay tuned for what’s coming next!
     </p>
     <div className=" flex flex-wrap justify-center gap-4">
-      {dogs.map((i) => (
+      {dogs.map((item, index) => (
 
-        <div  key={i} className=' group relative flex flex-col w-[390px] h-[420px] p-12'
-        style={{backgroundImage: "url(/assets/news.png)", backgroundSize:'cover', backgroundRepeat:'no-repeat'}}
+        <div  key={index} className=' group relative flex flex-col w-[390px] h-auto p-4'
+       
         >
-            <div className=' w-full aspect-video bg-orange-100 mt-4'>
-
+            <div className=' w-full aspect-video bg-orange-100'>
+              <img src={item.img} alt="" width={300} />
             </div>
-            <h2 className=' mt-2 text-3xl group-hover:text-orange-200 transition-colors duration-300 font-semibold text-orange-100'>Lorem ipsum</h2>
-            <p className=' text-sm text-zinc-100'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat minus consequuntur, vitae placeat vel nostrum, saepe totam amet repellendus iste fuga esse? Suscipit blanditiis.</p>
+            <p className=' text-sm text-zinc-100 mt-4'>{item.desc}</p>
 
         </div>
       ))}
