@@ -85,7 +85,7 @@ export default function Header() {
                     FAQ
                     </a>
                     <a href="#news" className="hover:text-green-500">
-                    News
+                    How to play
                     </a>
                    
                   
@@ -119,7 +119,7 @@ export default function Header() {
                     FAQ
                     </a>
                     <a href="#news" className="hover:text-green-500">
-                    News
+                    How to play
                     </a>
 
                     <a href={process.env.NEXT_PUBLIC_LOGIN} target='_blank' className=" bg-green-600 px-6 py-2 rounded-full w-fit text-white mt-4 ">

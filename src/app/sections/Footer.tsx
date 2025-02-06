@@ -37,7 +37,7 @@ export default function Footer() {
                     FAQ
                     </a>
                     <a href="#news" className="hover:text-green-500">
-                    News
+                    How to play
                     </a>
             
             </div>

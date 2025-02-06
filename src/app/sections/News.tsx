@@ -15,11 +15,11 @@ export default function News() {
     <div className=" flex flex-wrap justify-center gap-4">
       {dogs.map((item, index) => (
 
-        <div  key={index} className=' group relative flex flex-col w-[390px] h-auto p-4'
+        <div  key={index} className=' group relative flex flex-col items-center justify-center w-[390px] h-auto p-4'
        
         >
-            <div className=' w-full aspect-video bg-orange-100'>
-              <img src={item.img} alt="" width={300} />
+            <div className=' w-full flex items-center justify-center mt-4'>
+              <img src={item.img} alt="screen" width={300} className=' w-full' />
             </div>
             <p className=' text-sm text-zinc-100 mt-4'>{item.desc}</p>
 
