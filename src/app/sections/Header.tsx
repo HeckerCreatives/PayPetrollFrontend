@@ -70,7 +70,7 @@ export default function Header() {
             >
             <header className=" absolutez-50 top-0 z-50 px-4 text-sm font-semibold w-full ">
                 <nav className="max-w-[1240px] mx-auto flex items-center justify-between">
-                <img src="/logo.png" alt="Logo" width={120} height={120}  className=" " />
+                <img src="/Title_Icon.png" alt="Logo" width={80} height={80}  className=" " />
                 <div className="hidden md:flex items-center gap-6 text-white text-sm">
                     <a href="#" className="hover:text-green-500">
                     Home
@@ -103,7 +103,7 @@ export default function Header() {
                     <nav className="flex flex-col gap-2 mt-8">
 
                     <div className=" flex items-center justify-center">
-                    <img src="/logo.png" alt="Logo" width={120} height={120}  className=" " />
+                    <img src="/Title_Icon.png" alt="Logo" width={120} height={120}  className=" " />
 
                     </div>
                     <a href="#" className="hover:text-green-500">
@@ -146,7 +146,7 @@ export default function Header() {
             </div>
             <div className=" w-full flex items-center justify-center relative z-10 h-full ">
 
-                <img src="/logo.png" alt="Logo" width={650} height={650}  className=" -translate-y-24 md:-translate-y-0 relative z-30" />
+                <img src="/Title_Icon.png" alt="Logo" width={500} height={500}  className=" -translate-y-24 md:-translate-y-0 relative z-30" />
 
                 {/* <div className=" relative z-30 max-w-[1240px] w-full flex flex-col gap-4 justify-center h-full px-4">
                 <h2 className=" text-6xl font-semibold text-white md:text-start text-center">Welcome to <span className=" text-green-400">Pay Petrols</span></h2>

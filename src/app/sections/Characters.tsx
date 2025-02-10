@@ -36,7 +36,7 @@ export default function Characters() {
         <div className=' w-full flex items-center justify-center gap-4 h-[60px] mt-4 text-sm whitespace-nowrap overflow-x-auto '>
           <button className={`${tab === 'Novice' && ' border-b-4 border-green-500'} p-1 ml-8`} onClick={() => setTab('Novice')}>Novice</button>
           <button className={`${tab === 'Expert' && ' border-b-4 border-green-500'} p-1`} onClick={() => setTab('Expert')}>Expert</button>
-          <button className={`${tab === 'Ace' && ' border-b-4 border-green-500'} p-1`} onClick={() => setTab('Ace')}>Ace</button>
+          <button className={`${tab === 'Elite' && ' border-b-4 border-green-500'} p-1`} onClick={() => setTab('Elite')}>Elite</button>
           <button  disabled={true} className={`${tab === 'Ace of Spade' && ' border-b-4 border-green-500 '} text-zinc-400 p-1 relative`} onClick={() => setTab('Ace of Spade')}>Ace of Spade<span className=' text-[.5rem] px-2 bg-red-600 text-white rounded-full absolute top-0 -translate-y-3 translate-x-4 right-0'>Coming soon!</span></button>
           <button  disabled={true} className={`${tab === 'Ace of Spade' && ' border-b-4 border-green-500 '} text-zinc-400 p-1 relative`} onClick={() => setTab('Ace of Heart')}>Ace of Heart<span className=' text-[.5rem] px-2 bg-red-600 text-white rounded-full absolute top-0 -translate-y-3 translate-x-4 right-0'>Coming soon!</span></button>
 
