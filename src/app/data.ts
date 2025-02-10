@@ -2,22 +2,22 @@ export const termsAndConditions = [
     {
       title: "Introduction",
       content:
-        "Welcome to Paypetroll! These terms and conditions outline the rules and regulations for the use of the Paypetroll game.",
+        "Welcome to Ace that Pays! These terms and conditions outline the rules and regulations for the use of the Ace that Pays game.",
     },
     {
       title: "Acceptance of Terms",
       content:
-        "By downloading, installing, or using Paypetroll, you agree to comply with and be bound by these terms and conditions. If you do not agree to these terms, do not use the game.",
+        "By downloading, installing, or using Ace that Pays, you agree to comply with and be bound by these terms and conditions. If you do not agree to these terms, do not use the game.",
     },
     {
       title: "Eligibility",
       content:
-        "You must be at least 18 years old to play Paypetroll. By agreeing to these terms, you represent that you meet this age requirement.",
+        "You must be at least 18 years old to play Ace that Pays. By agreeing to these terms, you represent that you meet this age requirement.",
     },
     {
       title: "License to Use",
       content:
-        "We grant you a non-exclusive, non-transferable, revocable license to use Paypetroll for your personal, non-commercial entertainment purposes, subject to these terms.",
+        "We grant you a non-exclusive, non-transferable, revocable license to use Ace that Pays for your personal, non-commercial entertainment purposes, subject to these terms.",
     },
     {
       title: "Game Rules",
@@ -27,27 +27,27 @@ export const termsAndConditions = [
     {
       title: "Virtual Currency",
       content:
-        "Paypetroll may include virtual currency that can be purchased with real money or earned through gameplay. Virtual currency is not redeemable for real money and is non-transferable. All purchases of virtual currency are final and non-refundable.",
+        "Ace that Pays may include virtual currency that can be purchased with real money or earned through gameplay. Virtual currency is not redeemable for real money and is non-transferable. All purchases of virtual currency are final and non-refundable.",
     },
     {
       title: "Intellectual Property",
       content:
-        "All content, including but not limited to game assets, graphics, characters, and music, is the intellectual property of Paypetroll. You may not reproduce, distribute, or create derivative works based on our content without our express permission.",
+        "All content, including but not limited to game assets, graphics, characters, and music, is the intellectual property of Ace that Pays. You may not reproduce, distribute, or create derivative works based on our content without our express permission.",
     },
     {
       title: "User Content",
       content:
-        "You may be able to create, upload, and share content within Paypetroll. By submitting content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute your content within the game.",
+        "You may be able to create, upload, and share content within Ace that Pays. By submitting content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute your content within the game.",
     },
     {
       title: "Privacy Policy",
       content:
-        "Your use of Paypetroll is also governed by our Privacy Policy, which can be found at www.paypetroll.com/Privacy-Policy",
+        "Your use of Ace that Pays is also governed by our Privacy Policy, which can be found at www.acethatpays.com/Privacy-Policy",
     },
     {
       title: "Termination",
       content:
-        "We reserve the right to terminate or suspend your access to Paypetroll at our sole discretion, without prior notice, for any reason, including but not limited to a violation of these terms.",
+        "We reserve the right to terminate or suspend your access to Ace that Pays at our sole discretion, without prior notice, for any reason, including but not limited to a violation of these terms.",
     },
 ]
 
@@ -55,7 +55,7 @@ export const privacyPolicy = [
     {
       title: "1. Introduction",
       content:
-        "Welcome to Paypetroll. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and share your information when you play Paypetroll.",
+        "Welcome to Ace that Pays. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and share your information when you play Ace that Pays.",
     },
     {
       title: "2. Information We Collect",
@@ -67,7 +67,7 @@ export const privacyPolicy = [
     
     2.2 Usage Data:
     Game Data: Information about your gameplay, including scores, achievements, and interactions with other players.
-    Device Information: Information about the device you use to play Paypetroll, including IP address, device type, operating system, and browser type.
+    Device Information: Information about the device you use to play Ace that Pays, including IP address, device type, operating system, and browser type.
     Log Data: Details about your interactions with the game, including access times, pages viewed, and game crashes.
     
     2.3 Cookies and Tracking Technologies:
@@ -77,11 +77,11 @@ export const privacyPolicy = [
       title: "3. How We Use Your Information",
       content: `We use the information we collect for the following purposes:
     
-    To Provide and Improve the Game: To operate, maintain, and improve Paypetroll and its features.
+    To Provide and Improve the Game: To operate, maintain, and improve Ace that Pays and its features.
     To Process Payments: To facilitate in-app purchases and withdrawals.
     To Communicate with You: To send you updates, notifications, and other information related to the game.
     To Ensure Security: To monitor and enhance the security of the game and prevent fraud or illegal activities.
-    To Analyze Usage: To understand how players use Paypetroll and to optimize the game experience.`,
+    To Analyze Usage: To understand how players use Ace that Pays and to optimize the game experience.`,
     },
     {
       title: "4. How We Share Your Information",
@@ -110,7 +110,7 @@ export const privacyPolicy = [
     {
       title: "7. Children's Privacy",
       content:
-        "Paypetroll is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have inadvertently collected such information, we will take steps to delete it as soon as possible.",
+        "Ace that Pays is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have inadvertently collected such information, we will take steps to delete it as soon as possible.",
     },
     {
       title: "8. Changes to This Privacy Policy",
