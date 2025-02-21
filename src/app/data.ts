@@ -1,206 +1,128 @@
 export const termsAndConditions = [
-    {
-      title: "Introduction",
-      content:
-        "Welcome to Ace that Pays! These terms and conditions outline the rules and regulations for the use of the Ace that Pays game.",
-    },
-    {
-      title: "Acceptance of Terms",
-      content:
-        "By downloading, installing, or using Ace that Pays, you agree to comply with and be bound by these terms and conditions. If you do not agree to these terms, do not use the game.",
-    },
-    {
-      title: "Eligibility",
-      content:
-        "You must be at least 18 years old to play Ace that Pays. By agreeing to these terms, you represent that you meet this age requirement.",
-    },
-    {
-      title: "License to Use",
-      content:
-        "We grant you a non-exclusive, non-transferable, revocable license to use Ace that Pays for your personal, non-commercial entertainment purposes, subject to these terms.",
-    },
-    {
-      title: "Game Rules",
-      content:
-        "Players must follow the in-game rules and guidelines. Any form of cheating, hacking, or exploiting game mechanics is strictly prohibited. Respect other players and avoid any form of harassment, abuse, or inappropriate behavior.",
-    },
-    {
-      title: "Virtual Currency",
-      content:
-        "Ace that Pays may include virtual currency that can be purchased with real money or earned through gameplay. Virtual currency is not redeemable for real money and is non-transferable. All purchases of virtual currency are final and non-refundable.",
-    },
-    {
-      title: "Intellectual Property",
-      content:
-        "All content, including but not limited to game assets, graphics, characters, and music, is the intellectual property of Ace that Pays. You may not reproduce, distribute, or create derivative works based on our content without our express permission.",
-    },
-    {
-      title: "User Content",
-      content:
-        "You may be able to create, upload, and share content within Ace that Pays. By submitting content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute your content within the game.",
-    },
-    {
-      title: "Privacy Policy",
-      content:
-        "Your use of Ace that Pays is also governed by our Privacy Policy, which can be found at www.acethatpays.com/Privacy-Policy",
-    },
-    {
-      title: "Termination",
-      content:
-        "We reserve the right to terminate or suspend your access to Ace that Pays at our sole discretion, without prior notice, for any reason, including but not limited to a violation of these terms.",
-    },
-]
+  {
+    title: "Introduction",
+    content: "Welcome to Xtra Pay! These terms and conditions outline the rules and regulations for the use of the Xtra Pay game."
+  },
+  {
+    title: "Acceptance of Terms",
+    content: "By downloading, installing, or using Xtra Pay, you agree to comply with and be bound by these terms and conditions."
+  },
+  {
+    title: "Eligibility",
+    content: "You must be at least 18 years old to play Xtra Pay. By agreeing to these terms, you represent that you meet this age requirement."
+  },
+  {
+    title: "License to Use",
+    content: "We grant you a non-exclusive, non-transferable, revocable license to use Xtra Pay for your personal, non-commercial entertainment purposes."
+  },
+  {
+    title: "Game Rules",
+    content: "Players must follow in-game rules and guidelines. Cheating, hacking, and harassment are strictly prohibited."
+  },
+  {
+    title: "Virtual Currency",
+    content: "Xtra Pay may include virtual currency that can be purchased with real money or earned through gameplay. It is not redeemable for real money."
+  },
+  {
+    title: "Intellectual Property",
+    content: "All game content is the intellectual property of Xtra Pay. Unauthorized reproduction or distribution is prohibited."
+  },
+  {
+    title: "User Content",
+    content: "Users may create and share content within Xtra Pay, granting the platform a non-exclusive, royalty-free license to use it."
+  },
+  {
+    title: "Privacy Policy",
+    content: "Your use of Xtra Pay is subject to our Privacy Policy, available at www.xtrapay.com/Privacy-Policy."
+  },
+  {
+    title: "Termination",
+    content: "We reserve the right to terminate or suspend your access to Xtra Pay for any violation of these terms."
+  }
+];
+
 
 export const privacyPolicy = [
-    {
-      title: "1. Introduction",
-      content:
-        "Welcome to Ace that Pays. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and share your information when you play Ace that Pays.",
-    },
-    {
-      title: "2. Information We Collect",
-      content: `We collect the following types of information:
-    
-    2.1 Personal Information:
-    Registration Information: When you create an account, we collect your name, email address, and other contact information.
-    Payment Information: If you make in-app purchases or withdraw earnings, we collect payment information such as Gcash Number and Gotyme Details
-    
-    2.2 Usage Data:
-    Game Data: Information about your gameplay, including scores, achievements, and interactions with other players.
-    Device Information: Information about the device you use to play Ace that Pays, including IP address, device type, operating system, and browser type.
-    Log Data: Details about your interactions with the game, including access times, pages viewed, and game crashes.
-    
-    2.3 Cookies and Tracking Technologies:
-    We use cookies and similar technologies to collect information about your usage patterns and preferences.`,
-    },
-    {
-      title: "3. How We Use Your Information",
-      content: `We use the information we collect for the following purposes:
-    
-    To Provide and Improve the Game: To operate, maintain, and improve Ace that Pays and its features.
-    To Process Payments: To facilitate in-app purchases and withdrawals.
-    To Communicate with You: To send you updates, notifications, and other information related to the game.
-    To Ensure Security: To monitor and enhance the security of the game and prevent fraud or illegal activities.
-    To Analyze Usage: To understand how players use Ace that Pays and to optimize the game experience.`,
-    },
-    {
-      title: "4. How We Share Your Information",
-      content: `We do not share your personal information with third parties, except in the following circumstances:
-    
-    With Service Providers: We may share information with third-party service providers who assist us in operating the game, processing payments, and providing customer support.
-    With Legal Authorities: We may disclose information if required by law or in response to a legal request.
-    In Business Transfers: In the event of a merger, acquisition, or sale of assets, your information may be transferred to the new owner.`,
-    },
-    {
-      title: "5. Data Security",
-      content:
-        "We implement appropriate technical and organizational measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction. However, no security system is completely foolproof, and we cannot guarantee the absolute security of your information.",
-    },
-    {
-      title: "6. Your Rights",
-      content: `You have the following rights regarding your personal data:
-    
-    Access: You can request access to your personal information and obtain a copy.
-    Correction: You can request corrections to any inaccurate or incomplete personal information.
-    Deletion: You can request the deletion of your personal information, subject to certain exceptions.
-    Opt-Out: You can opt-out of receiving promotional communications from us.
-    
-    To exercise these rights, please contact us at any available social media link on our website.`,
-    },
-    {
-      title: "7. Children's Privacy",
-      content:
-        "Ace that Pays is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have inadvertently collected such information, we will take steps to delete it as soon as possible.",
-    },
-    {
-      title: "8. Changes to This Privacy Policy",
-      content:
-        "We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy within the game or on our website. Your continued use of Pay Petroll after such changes will constitute your acknowledgment and acceptance of the updated policy.",
-    },
-    {
-      title: "9. Contact Us",
-      content:
-        "If you have any questions or concerns about this privacy policy or our data practices, please contact us at any available social media link on our website.",
-    },
-  ]
+  {
+    title: "Introduction",
+    content: "Welcome to Xtra Pay! Your privacy is important to us, and we are dedicated to safeguarding your personal information. This privacy policy outlines how we collect, use, and share your data when you play Xtra Pay."
+  },
+  {
+    title: "Information We Collect",
+    content: "We collect the following types of information:\n\nPersonal Information:\n- Account Information: When you create an account, we collect details such as your name, email address, and other contact information.\n- Payment Details: If you make purchases or withdraw earnings, we collect payment details, such as Gcash number and Gotyme account information.\n\nUsage Data:\n- Game Data: We collect information related to your gameplay, such as scores, achievements, and interactions with other players.\n- Device Information: We gather details about the device you use to play Xtra Pay, including IP address, device type, operating system, and browser type.\n- Log Data: We record your interactions with the game, including login times, pages viewed, and any technical issues or crashes.\n\nCookies and Tracking Technologies:\n- We use cookies and similar tracking technologies to gather data about your usage patterns and preferences."
+  },
+  {
+    title: "How We Use Your Information",
+    content: "We utilize the information we collect for the following purposes:\n- To Provide and Improve the Game: To operate, maintain, and enhance Xtra Pay and its features.\n- To Process Payments: To facilitate in-app purchases and withdrawals.\n- To Communicate with You: To send updates, notifications, and other information regarding the game.\n- To Ensure Security: To monitor and protect the game’s security and prevent fraud or unlawful activity.\n- To Analyze Usage: To understand player behavior and improve the overall game experience."
+  },
+  {
+    title: "How We Share Your Information",
+    content: "We do not share your personal information with third parties except in the following situations:\n- With Service Providers: We may share data with third-party service providers that help operate the game, process payments, or offer customer support.\n- With Legal Authorities: We may disclose information if required by law or in response to a legal request.\n- In Business Transfers: If we undergo a merger, acquisition, or asset sale, your information may be transferred to the new owner."
+  },
+  {
+    title: "Data Security",
+    content: "We take appropriate security measures to protect your personal data from unauthorized access, alteration, or destruction. However, please be aware that no security system is completely invulnerable, and we cannot guarantee absolute protection of your information."
+  },
+  {
+    title: "Your Rights",
+    content: "You have the following rights regarding your personal data:\n- Access: You may request access to your personal information and request a copy.\n- Correction: You may request corrections to any inaccurate or incomplete personal data.\n- Deletion: You may request the deletion of your personal information, subject to certain exceptions.\n- Opt-Out: You may opt out of receiving promotional communications from us."
+  },
+  {
+    title: "Children's Privacy",
+    content: "Xtra Pay is not intended for children under 18. We do not intentionally collect personal information from children under 18. If we learn that we have inadvertently collected such information, we will take immediate steps to delete it."
+  },
+  {
+    title: "Changes to This Privacy Policy",
+    content: "We may update this privacy policy periodically. Any changes will be communicated by posting the updated policy in the game or on our website. Continued use of Xtra Pay after the updates constitutes your acceptance of the revised policy."
+  },
+  {
+    title: "Contact Us",
+    content: "If you have any questions or concerns regarding this privacy policy or how we handle your data, please contact us via any available social media link on our website."
+  }
+];
 
-export const faqs = [
+
+
+
+export const faqs= [
     {
-      question: "What is Ace that Pays?",
-      answer:
-        "Ace that Pays is a dynamic Play-to-earn action game where players take care of their pets and live with them. The main objective is to feed, bathe and love their pets to earn real-life rewards. Players can also join competitive tournaments, striving to achieve top scores and rise through the leaderboard ranks. With its blend of quick, engaging tapping mechanics and competitive challenges, Ace that Pays offers an exhilarating and lucrative gaming experience.",
+      question: "What is Xtra Pay?",
+      answer: "Xtra Pay is a dynamic Play-to-Earn action game where players take care of their pets and live with them. The main objective is to feed, bathe, and love their pets to earn real-life rewards. Players can also join competitive tournaments, striving to achieve top scores and rise through the leaderboard ranks. With its blend of quick, engaging tapping mechanics and competitive challenges, Xtra Pay offers an exhilarating and lucrative gaming experience."
     },
     {
-      question: "How can I play Ace that Pays?",
-      answer: `
-      <span class='highlight'>Visit the Official Website</span>
-      -Go to <a href="https://www.acethatpays.com" target="_blank">www.acethatpays.com</a> using your preferred web browser. This is the official platform where you can access 
-      the game and begin your journey.
-  
-      <span class='highlight'>Find a Registration Link</span>
-      -Navigate to the social media links provided on the website. These links will direct you to Ace that Pays official social 
-      media pages or communities.
-      -Look for a Team Leader or any active member who can provide you with a valid registration link. This link is 
-      essential for creating your account.
-  
-      <span class='highlight'>Register Your Account</span>
-      -Use the registration link shared with you to sign up on the platform.
-      -Fill in the required details, such as your name, email, and any other necessary information, to complete the 
-      registration process.
-  
-      <span class='highlight'>Request a Payin</span>
-      -After registering, go to your account dashboard and request a Payin. This step is necessary to fund your account.
-      -Wait for the Payin process to be successfully completed. This may take some time depending on the payment 
-      method you choose.
-  
-      <span class='highlight'>Purchase a Pet</span>
-      -Once your account is funded, visit the in-game store to browse the available Pets.
-      -Select a Pet that suits your preferences and budget, then complete the purchase. Each Pet has unique attributes 
-      that can enhance your gameplay experience.
-  
-      <span class='highlight'>Start Playing</span>
-      -After purchasing your Pet, return to your dashboard.
-      -Click on the <strong>Play Now</strong> button to begin playing the game. This will take you to the gameplay interface where you 
-      can interact with your Pet and participate in various activities.
-    `,
-    },
-  
-    {
-      question: "How can I earn money in Ace that Pays?",
-      answer:
-        "In Ace that Pays, taking care of your pets is a fun and interactive way to earn rewards. This involves a variety of activities that ensure your pets are happy, healthy, and well-maintained. For instance, you can feed your pets regularly to keep them energized and satisfied. Additionally, you can take them to bath to keep them clean and fresh, which contributes to their overall well-being. Beyond these basic needs, showing love and affection to your pets, such as playing with them or giving them attention, helps build a strong bond and keeps them content. These nurturing tasks not only enhance your pets' happiness but also contribute to your progress and earnings in the game, making the experience both enjoyable and rewarding.",
+      question: "How can I play Xtra Pay?",
+      answer: "1. Visit the Official Website: Go to www.xtrapay.com using your preferred web browser.\n2. Find a Registration Link: Navigate to the social media links provided on the website to find a valid registration link.\n3. Register Your Account: Use the registration link to sign up by filling in the required details.\n4. Request a Pay-in: After registering, go to your account dashboard and request a Pay-in to fund your account.\n5. Purchase a Pet: Once funded, browse the in-game store and purchase a pet.\n6. Start Playing: Click the Play Now button to begin the game."
     },
     {
-      question: "How can I withdraw my Earnings",
-      answer:
-        "Players of Ace that Pays must meet certain criteria to be eligible to withdraw their earnings. Players must have at least 500 Php or 10 USD in their Game Wallet as the minimum withdrawal amount, with no limit for Gcash and  Gotyme. While Commision wallet follows a certain withdrawal bracket of a minimum of 500 Php up to 500,000 Php. Withdrawal requests can be made every Monday 12nn until 11:59pm and will be released the following Monday 12mn until 11:59am. When withdrawal is available, just go to the withdraw section of your dashboard and fill up the required information and click the request to proceed.",
+      question: "How can I earn money in Xtra Pay?",
+      answer: "In Xtra Pay, you earn rewards by taking care of your pets. Feeding, bathing, and showing affection to your pets keeps them happy and contributes to your progress and earnings in the game."
     },
     {
-      question: "How do I create an Account",
-      answer:
-        "To get started with Ace that Pays, begin by visiting the official website at “www.AcethatPays.com” using your preferred web browser. This platform serves as the gateway to your gaming journey, where you can explore and engage with the various features offered. Once on the site, navigate to the social media links provided, which will direct you to Ace that Pays official social media pages or community groups. Here, you’ll need to connect with a “Team Leader” or an active member who can share a valid registration link with you. This link is crucial as it allows you to sign up and create your account. After receiving the link, proceed to register by filling in the required details, such as your name, email address, and any other necessary information. Completing this step successfully will grant you access to the platform, setting the stage for your adventure in the world of Ace that Pays.",
+      question: "How can I withdraw my earnings?",
+      answer: "Players must have at least 500 Php or 10 USD in their Game Wallet to withdraw. Withdrawals are available every Monday from 12 PM to 11:59 PM and are processed the following Monday from 12 AM to 11:59 AM."
     },
     {
-      question: "What type of pets can I buy",
-      answer:
-        "In Ace that Pays, you have the opportunity to purchase a variety of pets from different trainers, each offering unique options to suit your preferences. These trainers are categorized into tiers such as Novice, Expert, Ace, Ace of Hearts, and Ace of Spade, each representing varying levels of expertise and rarity. The pets available range from adorable dogs and cats to colorful fishes, playful hamsters, and charming birds, ensuring there’s something for every animal lover. Whether you’re looking for a common companion or a rare and exclusive pet, these trainers provide a diverse selection to enhance your gameplay experience and help you build your ideal collection. This variety adds depth and excitement to the game, allowing you to choose pets that resonate with your style and strategy.",
+      question: "How do I create an account?",
+      answer: "Visit www.xtrapay.com, navigate to the social media links, connect with a Team Leader for a registration link, and complete the sign-up process."
     },
     {
-      question: "Can I have multiple accounts",
-      answer:
-        "In Ace that Pays, players are allowed to create and manage multiple accounts, providing flexibility to experiment with different strategies or maintain separate progress tracks. However, each account must be registered using a unique Gmail address. This means you can sign up for as many accounts as you like, as long as no two accounts share the same Gmail. This feature enables you to diversify your gameplay experience, whether you’re testing new approaches or organizing your activities across different accounts. It’s important, though, to adhere to the game’s rules and guidelines for each account to ensure fair play and avoid any potential issues. By following these guidelines, you can fully enjoy the benefits of having multiple accounts while staying within the game’s framework.",
+      question: "What type of pets can I buy?",
+      answer: "Xtra Pay offers a variety of pets from different trainers, categorized into tiers such as Novice, Expert, Ace, Ace of Hearts, and Ace of Spade. Pets range from dogs and cats to fishes, hamsters, and birds."
+    },
+    {
+      question: "Can I have multiple accounts?",
+      answer: "Yes, but each account must be registered with a unique Gmail address. This allows players to experiment with different strategies while following the game’s guidelines."
     },
     {
       question: "Can I report a bug or technical problem?",
-      answer:
-        "If you encounter a bug or technical issue while playing, you can contact us through any of our official social media accounts. When reaching out, please provide a clear and detailed description of the problem you’re facing. If available, include screenshots or any additional information that could help us better understand and resolve the issue. The more specific and comprehensive your report, the faster and more effectively our support team can assist you. Your feedback is invaluable in helping us enhance the game and create a smoother, more enjoyable experience for everyone.",
+      answer: "Yes, players can report issues through Xtra Pay’s official social media accounts. Providing screenshots and detailed descriptions helps the support team resolve problems efficiently."
     },
     {
-      question: "How can I invite friends to play Ace that Pays?",
-      answer:
-        "You can invite friends to join Ace that Pays by sharing referral links directly from your dashboard. Your unique referral link will become available after you complete your first purchase on the platform. Simply send the link to your friends, and once they sign up using it, you can start earning rewards while expanding your network in the game.",
-    },
-]
+      question: "How can I invite friends to play Xtra Pay?",
+      answer: "Players can invite friends by sharing their unique referral link, which becomes available after their first purchase."
+    }
+  ];
+  
 
 export const pets = [
         {

@@ -10,8 +10,8 @@ export default function News() {
     <div id='news' className=' w-full bg-[#212121] h-auto relative z-50'>
      <section className="max-w-[1240px] flex flex-col gap-4 items-center mx-auto px-4 py-32  relative z-20">
     <h2 className="text-center text-3xl font-bold">How to play</h2>
-    <p className=" text-zinc-400 max-w-[700px] text-center">Welcome to the latest updates from Ace That Pays! We’re thrilled to share some exciting developments, new features, and important reminders to enhance your gaming experience. Stay tuned for what’s coming next!
-    </p>
+    {/* <p className=" text-zinc-400 max-w-[700px] text-center">Welcome to the latest updates from Xtra Pays! We’re thrilled to share some exciting developments, new features, and important reminders to enhance your gaming experience. Stay tuned for what’s coming next!
+    </p> */}
     <div className=" flex flex-wrap justify-center gap-4">
       {dogs.map((item, index) => (
 

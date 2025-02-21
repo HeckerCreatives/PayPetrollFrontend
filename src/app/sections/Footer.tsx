@@ -52,7 +52,7 @@ export default function Footer() {
             </DialogTrigger>
             <DialogContent className=' bg-zinc-900 text-white w-[95%] md:w-full max-h-[90%] overflow-y-auto'>
               <DialogHeader>
-                <DialogTitle>Paypetroll Legal Information</DialogTitle>
+                <DialogTitle>Xtra Pay Legal Information</DialogTitle>
                 <DialogDescription>
                   Please review our Terms & Conditions and Privacy Policy
                 </DialogDescription>
