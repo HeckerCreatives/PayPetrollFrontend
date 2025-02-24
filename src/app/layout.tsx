@@ -16,7 +16,7 @@ const opensans = Roboto_Slab({ subsets: ["latin"], weight: [  "400", "500", "600
 
 
 export const metadata: Metadata = {
-  title: "PayPetroll",
+  title: "Xtra Pay",
   description: "PayPetroll",
 };
 
