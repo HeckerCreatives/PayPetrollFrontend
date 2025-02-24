@@ -179,7 +179,7 @@ export const pets = [
                 }
             ],
             "rank": "Novice",
-            "description" : 'TThe Novice Trainer package is perfect for beginners, making it an ideal choice for pet lovers looking to grow their savings while caring for their furry friends.'
+            "description" : 'The Novice Trainer package is perfect for beginners, making it an ideal choice for pet lovers looking to grow their savings while caring for their furry friends.'
         },
         {
             "trainers": [
