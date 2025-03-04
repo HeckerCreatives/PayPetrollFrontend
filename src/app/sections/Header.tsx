@@ -11,7 +11,7 @@ import {
 import { Facebook, Instagram, Menu, Youtube } from 'lucide-react'
 import { Parallax } from 'react-scroll-parallax'
 import axios, { AxiosError } from 'axios'
-import { FaDiscord, FaTelegram } from 'react-icons/fa'
+import { FaDiscord, FaTelegram, FaTiktok } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
 
@@ -54,6 +54,8 @@ export default function Header() {
       return  <Instagram size={25}/>
     }else if(data === 'telegram'){
       return  <FaTelegram  size={25}/>
+    } else if(data === 'tiktok'){
+      return  <FaTiktok  size={25}/>
     } else {
       return  <Youtube size={25}/>
   

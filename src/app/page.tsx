@@ -19,7 +19,7 @@ import Reviews from "./sections/Reviews";
 import Footer from "./sections/Footer";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { FaDiscord, FaTelegram } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import FAQSection from "./sections/Faq";
 
@@ -91,6 +91,8 @@ export default function Home() {
         return  <Instagram size={25}/>
       }else if(data === 'telegram'){
         return  <FaTelegram  size={25}/>
+      } else if(data === 'tiktok'){
+        return  <FaTiktok  size={25}/>
       } else {
         return  <Youtube size={25}/>
     
